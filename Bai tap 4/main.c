@@ -8,7 +8,11 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    char name[150];
+    printf("Hi....");
+    gets(name);
+    printf("Welcome %s to T2203M /n", name);
+    
+    
     return 0;
 }
